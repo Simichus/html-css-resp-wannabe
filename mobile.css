@@ -1,4 +1,55 @@
 @media screen and (max-width: 419px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+    }
+
+    .row{
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    img{
+        height: 100px;
+    }
     
+    #lezioni{
+        background-color: #f2f2cd;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+        float: none;
+        width: 100%;
+    }
     
+    #steps{
+        flex-wrap: wrap;
+    }
+
+    #why{
+        background-color: #f2f2cd;
+    }
+
+    #why hr{
+        color: transparent;
+        border: 1px solid black;
+    }
+
 }
